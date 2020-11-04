@@ -10,7 +10,7 @@ class Cards extends Component {
         <div> 
         <h2 className="text-success m-5 text-center">Global Coronavirus Data</h2>
         <h5>{new Date(fullDate).toDateString()}</h5>
-        <h1 className="text-success text-center">Global Data</h1>
+        <h1 className="text-success">Global Data</h1>
             <div className="row">
             <div className="col-md-4 mt-5">
         <div className="card">

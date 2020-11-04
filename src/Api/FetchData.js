@@ -70,7 +70,7 @@ this.setState({loading: false});
     <Cards summary={this.state.global} fullDate={this.state.fullDate} />
     
     
- <h3 className="text-success mt-5 mb-5 text-center">Data By Country</h3>
+ <h3 className="text-success mt-5 mb-5">Data By Country</h3>
  
      <table className="table table-dark table-striped table-bordered table-hover">
     
@@ -79,7 +79,7 @@ this.setState({loading: false});
          <th>Country</th>
          <th>New Confirmed</th>
          <th>Total Confirmed</th>
-         {/* <th>New Deaths</th> */}
+         <th>New Deaths</th>
          <th>Total Deaths</th>
          <th>Total Recovered</th>
         

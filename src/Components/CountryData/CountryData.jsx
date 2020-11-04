@@ -9,7 +9,7 @@ class CountryData extends Component {
      <td> {countries.Country}</td>
      <td> {countries.NewConfirmed}</td>
         <td> {countries.TotalConfirmed}</td>
-     {/* <td> {countries.NewDeaths}</td> */}
+     <td> {countries.NewDeaths}</td>
      <td> {countries.TotalDeaths}</td>
      <td> {countries.TotalRecovered}</td>    
  </tr>
