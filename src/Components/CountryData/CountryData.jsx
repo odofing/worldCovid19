@@ -6,6 +6,7 @@ class CountryData extends Component {
            const {countries} = this.props;
         return (        
  <tr>
+     
      <td> {countries.Country}</td>
      <td> {countries.NewConfirmed}</td>
         <td> {countries.TotalConfirmed}</td>
