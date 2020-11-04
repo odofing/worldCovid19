@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import CountUp from 'react-countup';
 
-
 class Cards extends Component {
 
     render () {
@@ -11,7 +10,7 @@ class Cards extends Component {
         <h2 className="text-success m-5 text-center">Global Coronavirus Data</h2>
         <h5>{new Date(fullDate).toDateString()}</h5>
         <h1 className="text-success">Global Data</h1>
-            <div className="row">
+            <div className="row"  >
             <div className="col-md-4 mt-5">
         <div className="card">
           <div className="card-body bg-info">
